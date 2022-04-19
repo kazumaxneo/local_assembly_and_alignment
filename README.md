@@ -29,3 +29,5 @@ cd local_assembly_and_alignment/
 echo export PATH=\$PATH:`pwd`\ >> ~/.bash_profile && source ~/.bash_profile
 local_assembly_and_alignment.pl
 ```
+
+<p align="center"><img src="Figure.png" alt="workflow" width="800"></p>
