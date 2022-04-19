@@ -6,7 +6,7 @@
 #### 17 April 2022
 #### A Perl scripts to call SV position from mapped.bam.
 
-**Install;** run "mamba install -c bioconda -y bamutil samtools spades seqkit"  
+**Install;** run __"mamba install -c bioconda -y bamutil samtools spades seqkit"__
 **Input:** Paired-end short read bam(-b) and their reference.fasta(-f). Chr (-r), start (-s), and end position (-e), respectively.   
 **Output:** Bam file; locally assembled contig from the reads in user specified region  
 **Usage:** perl local_assembly_and_alignment.pl -f assembly.fasta -r chr1 -s 100 -e 1000 -b mapping.bam  
