@@ -19,21 +19,18 @@
 
 
 Install Anaconda (Mac OS X, Linux).  
-
+## Dependency
 ```
-mamba install -c bioconda spades 
-mamba install -c bioconda samtools 
-mamba install -c bioconda seqkit 
-mamba install -c bioconda bamutil 
+mamba create -n local_assembly_and_alignment -y
+conda activate local_assembly_and_alignment
+mamba install -c bioconda spades samtools seqkit bamutil -y
 ```
-    
-
-
+   
 ## Source
 ```
 cd $HOME 
-git clone git@github.com:kazumaxneo/SV-Quest.git
-cd SV-Quest/
+git clone git@github.com:kazumaxneo/local_assembly_and_alignment.git
+cd local_assembly_and_alignment/
 echo export PATH=\$PATH:`pwd`\ >> ~/.bash_profile && source ~/.bash_profile
-SV-Quest.pl
+local_assembly_and_alignment.pl
 ```
