@@ -1,9 +1,4 @@
-## local_assembly_and_alignment
 ### local_assembly_and_alignment 1.0  
-
-#### Kazuma Uesaka
-#### University of Nagoya
-#### 17 April 2022
 #### A Perl scripts to call SV position from mapped.bam.
 
 **Install;** run __"mamba install -c bioconda -y bamutil samtools spades seqkit"__
