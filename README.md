@@ -27,6 +27,7 @@ cd $HOME
 git clone git@github.com:kazumaxneo/local_assembly_and_alignment.git
 cd local_assembly_and_alignment/
 echo export PATH=\$PATH:`pwd`\ >> ~/.bash_profile && source ~/.bash_profile
+conda activate local_assembly_and_alignment 
 local_assembly_and_alignment.pl
 ```
 
